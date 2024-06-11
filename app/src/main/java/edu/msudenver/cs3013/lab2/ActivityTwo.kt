@@ -18,7 +18,6 @@ class ActivityTwo : AppCompatActivity() {
         setContentView(R.layout.activity_two)
         Log.d(TAG, "onCreate in Num 2")
 
-
         val buttonClickListener = View.OnClickListener { view ->
 
             when (view.id) {

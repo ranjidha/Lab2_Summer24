@@ -28,6 +28,11 @@
         app:layout_constraintTop_toBottomOf="@id/launch_mode_standard"
         tools:text="B"/>
 
+    <!-- What is the function of the below tag?-->
+   <!--
+        Add your answer here
+   -->
+
     <include layout="@layout/letters"
         android:id="@+id/letters_layout"
         android:layout_width="wrap_content"

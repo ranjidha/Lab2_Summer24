@@ -18,6 +18,12 @@ class ActivityOne : AppCompatActivity() {
         Log.d(TAG, "onCreate in Num1")
 
         val buttonClickListener = View.OnClickListener { view ->
+        //  "What is the below code section doing?"
+            /*
+            Type your answer here
+
+
+            */
 
             when (view.id) {
                 R.id.number1 -> startActivity(Intent(this, ActivityOne::class.java))
@@ -39,6 +45,12 @@ class ActivityOne : AppCompatActivity() {
         findViewById<View>(R.id.number3).setOnClickListener(buttonClickListener)
     }
 
+    //  "What is the below function doing?"
+    /*
+     Type your answer here
+
+
+     */
     override fun onNewIntent(intent: Intent?) {
         super.onNewIntent(intent)
         Log.d(TAG, "onNewIntent in One")

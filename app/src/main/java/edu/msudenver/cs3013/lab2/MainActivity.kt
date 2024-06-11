@@ -20,6 +20,13 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "onCreate")
 
         val buttonClickListener = View.OnClickListener { view ->
+           //How many activities are opened here?
+           /*
+           Type your answer here
+
+
+           */
+
 
             when (view.id) {
                 R.id.letterA -> startActivity(Intent(this, ActivityA::class.java))

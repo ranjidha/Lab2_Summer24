@@ -22,6 +22,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <!-- How many Activities have launchMode as singleTop and how many have launchMode as standard?
+        Which are they?-->
+      <!--
+        Type your answer here
+
+
+
+        -->
         <activity
             android:name=".ActivityThree"
             android:launchMode="singleTop" />
